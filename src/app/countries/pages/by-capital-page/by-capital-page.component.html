@@ -3,9 +3,10 @@
 
 <div class="row">
   <div class="col">
+    <!-- (onValue)="searchByCapital($event)" -->
     <shared-search-box
       placeholder="Search by capital"
-      (onValue)="searchByCapital($event)"
+      (onDebounce)="searchByCapital($event)"
       ></shared-search-box>
   </div>
 </div>
